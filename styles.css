@@ -1,0 +1,48 @@
+*{
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body{
+  background-image: linear-gradient(to right, lightblue, lightpink);
+}
+img{
+  width: 300px;
+  object-fit: cover;
+  height: 300px;
+  box-shadow: 6px 5px 3px rgba(0, 0, 0, 0.15);
+  transition: width 0.80s, height 0.80s;
+}
+.recipe{
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+h1{
+  text-align: center;
+  color: white;
+  
+}
+.recipe div{
+  text-align: center;
+}
+img:hover{
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+.desc{
+  text-align: justify;
+  border-radius: 4px;
+  width: 400px;
+  background-color: white;
+  padding: 10px;
+}
+.ingre-content{
+  display: flex;
+}
+.ingre-content div{
+  background-color: white;
+  margin: 8px;
+  padding: 10px;
+}
